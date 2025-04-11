@@ -24,7 +24,7 @@
         mode: '0644'
 
     - name: Lancer WordPress avec Docker Compose
-      docker_compose:
+      community.docker.docker_compose_v2:
         project_src: "{{ wp_dir }}"
         state: present
         restarted: true

@@ -1,6 +1,6 @@
 ---
 - name: Installation de Docker sur Ubuntu
-  hosts: Ubuntu-VM
+  hosts: ubuntu
   become: yes
   tasks:
     - name: Installer les dépendances

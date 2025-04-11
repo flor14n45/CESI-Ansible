@@ -1,6 +1,6 @@
 ---
 - name: Déployer WordPress avec Docker Compose
-  hosts: ubuntu
+  hosts: Ubuntu-VM
   become: yes
 
   vars:
